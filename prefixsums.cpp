@@ -7,9 +7,13 @@ using namespace std;
 
 #define ll long long
 #define ull unsigned long long
+#define kymchi cin.tie( 0 ); cout.tie( 0 ); ios_base::sync_with_stdio( false );
 
 int main()
 {
+	// Fast I/O otherwise TLE on two tcs
+	kymchi;
+	
 	ull N, Q;
 	cin >> N >> Q;
 	
